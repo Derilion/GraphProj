@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.3.0" schemaVersion="6.2.0.0">
+	<DataSet name="DetectDecrease" OID="_040gs00g00001o0704ag4bhrhdu06" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T21:53:13" timeStampCounter="2284"/>
+	</DataSet>
+	<DataSet name="EdgeFallinig" OID="_040gs00g00001o0704ag4bhrhdt06" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T21:53:13" timeStampCounter="2281"/>
+		<DataEntry elementName="buffer" elementOID="_040gs00g00001o0704ag4bhrhdq06">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="oldValue" elementOID="_040gs00g00001o0704ag4bhrhdqg6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>2TBCGFe+38YW9WHzNeW7QAVPqRs=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>RWv5suGzuG+XoGud5PeGbtF1efhL4hiakuml/4A4hl0T7gkfAu8mQABNvAiAtu8H
+4ZXyJnImu9WRtrY7Wiq1/EJgxmfmCrg/4Yu38XWkn56mh8jholqA3WxTSdUZ3T4v
+/xdgXXof8gejEjPUtNHKpLLHyr1p9+R1BMTXgMXH/ilAciGzeEOWYJbuQUs2wuZ3
+4lkWwqi2+0IN4M1nrY1Tetqr1lySa+NOG63CnFIDYozjJKTWH3iYVPTNHmC5R8V8
+qcc4CaTmLFVxHLXQw0OcvdB1/k7eD87FctXqr+oahnh1xqghbzVqRGx0/OuCJYHa
+fDhnLs6oMB7WJM7f+IPQAw==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

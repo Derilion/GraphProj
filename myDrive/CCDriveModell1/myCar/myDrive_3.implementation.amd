@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentImplementation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<ImplementationSet name="myDrive_3" OID="_040gs00g00001o0704ag49pm7o304" default="false" memoryLocation="Default" classConfig="true" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:27:02" timeStampCounter="2825"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="TrackSize" elementOID="_040gs00g00001o0704ag49pm5rog2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ImplementationSet name="Impl" OID="_040gs00g00001o0704ag49pm5o204" default="true" memoryLocation="Default" classConfig="false" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:47:39" timeStampCounter="1"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="AirFriction" elementOID="_040gs00g00001o0704ag49pm5rtg2">
+					<DimensionalImplementation>
+						<OneDImplementation>
+							<XAxis>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</XAxis>
+							<TableValues>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</TableValues>
+						</OneDImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="brakeAccel" elementOID="_040gs00g00001o0704ag49pm5ru02">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="brakebuff" elementOID="_040gs00g00001o0704ag49pm5rng2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="brakeCtrl" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5o004">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="BrakeMomentum" elementOID="_040gs00g00001o0704ag49pm5rq02">
+					<DimensionalImplementation>
+						<OneDImplementation>
+							<XAxis>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</XAxis>
+							<TableValues>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</TableValues>
+						</OneDImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="cont" elementOID="_040gs00g00001o0704ag49pm5rpg2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="dh" elementOID="_040gs00g00001o0704ag49pm5rqg2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="ds" elementOID="_040gs00g00001o0704ag49pm5rsg2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="EngineMomentum" elementOID="_040gs00g00001o0704ag49pm5ro02">
+					<DimensionalImplementation>
+						<TwoDImplementation>
+							<XAxis>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</XAxis>
+							<YAxis>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</YAxis>
+							<TableValues>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</TableValues>
+						</TwoDImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="h" elementOID="_040gs00g00001o0704ag49pm5rv02">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="Landscape" elementOID="_040gs00g00001o0704ag49pm5rs02">
+					<DimensionalImplementation>
+						<OneDImplementation>
+							<XAxis>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</XAxis>
+							<TableValues>
+								<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</TableValues>
+						</OneDImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="lastbrake" elementOID="_040gs00g00001o0704ag49pm5rrg2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="powerAccel" elementOID="_040gs00g00001o0704ag49pm5rp02">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="powerCtrl" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5rvg2">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="return" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5o0g4">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>ASBF4sHbXa3vdETuqL+XbpBm+CM=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>Yx//k9AFg2kcqPqKr1tdZih4vetINIcSH+ePaeHK+/bjBm9ul9hgG8sE55z86ypC
+a0isG7IyCCjZhd4n/l4nowDTQhMX5laDFLlNC+wJMG0VAIw7kxHJayi4uc4ms/JX
+2pg4UGcUue3rAE8cPAQrrRGMQmgoJVf2vkLHJsKkLGjMyh3dBIAEaCJQwLTjjMrE
+4DSL8Bo8wERtpsu7P0P6a53cOOP4NgQy+77jI1wl6g+xDPZUIA+72Lw9tIJPJFhG
+U4b0cknDW0wt6+apJcA4zdl9xWCqTJlatx9cGEuK8o1MuQEyjmy4C4QPcIpHKeXU
+NLMSszGj922dkVGqrxFUnw==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentImplementation>

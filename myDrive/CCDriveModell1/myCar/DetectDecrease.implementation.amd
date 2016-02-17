@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentImplementation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<ImplementationSet name="DetectDecrease" OID="_040gs00g00001o0704ag4bhrjdug6" default="false" memoryLocation="Default" classConfig="true" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="false" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T21:53:13" timeStampCounter="2283"/>
+	</ImplementationSet>
+	<ImplementationSet name="Impl" OID="_040gs00g00001o0704ag4bhrhdtg6" default="true" memoryLocation="Default" classConfig="false" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="false" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:20:56" timeStampCounter="2751"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="buffer" elementOID="_040gs00g00001o0704ag4bhrhdq06">
+					<ScalarImplementation>
+						<LogicImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" physType="log" implType="uint8"/>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="oldValue" elementOID="_040gs00g00001o0704ag4bhrhdqg6">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="return" methodName="out" elementOID="_040gs00g00001o0704ag4bhrhdrg6">
+					<ScalarImplementation>
+						<LogicImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" physType="log" implType="uint8"/>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="signal" methodName="compute" elementOID="_040gs00g00001o0704ag4bhrhdr06">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>4xXqkxdCgadlP0pCYZJquYIkSpw=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>l+pll3GNDYhBuYnZirQFohKuJQ0iW74YVhXOeV/MNsmLG4ydPmaJ/miJv7v/IjOc
+FzzwwuWofhbmACz7J+uPwxdE71vBu/WMJt3MDzhHKrZN4Zm4L8lMIgOkxTy4NiFy
+KG6wIOBN3+d5ncVioYu76VSiF+TT/LlMGUkBW7a1blfREOJ1y8lIqJIuF8npzdD+
+9cmtaeVV4HplKMhd/GkNejTDNyCAUdt2G6JE2qIhrfIZVwVVO3sCyJHZWaNavQxJ
+MXOI2iviJVzyIxXAhJedFCLs8M2FaVY9NWI5MMUhY2f9wXC++M/Quq21z7QCMstv
+z+nsp8mXnwAJMcTpGjNDRg==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentImplementation>

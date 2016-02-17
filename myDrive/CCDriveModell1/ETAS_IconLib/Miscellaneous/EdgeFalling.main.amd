@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.7">
+	<Image name="EdgeFalling" nameSpace="/ETAS_IconLib/Miscellaneous" OID="_040h28hj8hamdj070gbg7kj73cd02" timeStamp="2000-03-14T15:40:50" componentType="ASCET_Image">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T21:42:58" timeStampCounter="2209"/>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<File type="GRAPHIC">EdgeFalling.bmp</File>
+	</Image>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>kjsaD4BSGGhUhmtuJx+QHS0HJf4=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>BCZ18OJMPKRFW4XekmgWHP9ZHw2sY96NZA6Gbzvl/g77ui+aeGqvJMYSjMVSAGmt
+zd72C7GMEH+AssZHPdmC7cKyww/JyGOrT3e262w+7dA2mSd/f47F5F+gdwUlFh5g
+lMr0gMvr0lpacTQEC5qKo8MVBUp2ip4tOxbcnWncK7feHcyk/V2AqXlhApQOMnZ+
+4ihECY7GfAfIjvZ7BDiHP6DcfLEakyTGkdykNUZJc7tCNvFuaGHJkQk9Ri8ig1Ah
+UfUjUv4f96OrGnfxfFCChUBDREL7RLdyh/228LGwRHhTIYhAjgztHIJT5hC9MH70
+nQoGE+5V+RPZnaOlsvmSYQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentMain>

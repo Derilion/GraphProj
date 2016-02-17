@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.3.0" schemaVersion="6.2.0.0">
+	<DataSet name="myDrive_3" OID="_040gs00g00001o0704ag49pm5o2g4" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:26:53" timeStampCounter="2823"/>
+		<DataEntry elementName="TrackSize" elementOID="_040gs00g00001o0704ag49pm5rog2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="1000.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040gs00g00001o0704ag49pm5o1g4" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:26:35" timeStampCounter="2817"/>
+		<DataEntry elementName="AirFriction" elementOID="_040gs00g00001o0704ag49pm5rtg2">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="30.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="90.0"/>
+							</Value>
+							<Value>
+								<Numeric value="120.0"/>
+							</Value>
+							<Value>
+								<Numeric value="150.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.1"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.2"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.4"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.8"/>
+							</Value>
+							<Value>
+								<Numeric value="-1.6"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="brakeAccel" elementOID="_040gs00g00001o0704ag49pm5ru02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="brakebuff" elementOID="_040gs00g00001o0704ag49pm5rng2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="BrakeMomentum" elementOID="_040gs00g00001o0704ag49pm5rq02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1.0"/>
+							</Value>
+							<Value>
+								<Numeric value="40.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="80.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-1.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-2.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-3.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-4.0"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="cont" elementOID="_040gs00g00001o0704ag49pm5rpg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="dh" elementOID="_040gs00g00001o0704ag49pm5rqg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="ds" elementOID="_040gs00g00001o0704ag49pm5rsg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="EngineMomentum" elementOID="_040gs00g00001o0704ag49pm5ro02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<TwoD currentSizeX="6" currentSizeY="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="5.0"/>
+							</Value>
+							<Value>
+								<Numeric value="20.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.126582278481"/>
+							</Value>
+							<Value>
+								<Numeric value="80.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+						</XAxis>
+						<YAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="30.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="90.0"/>
+							</Value>
+							<Value>
+								<Numeric value="150.0"/>
+							</Value>
+							<Value>
+								<Numeric value="200.0"/>
+							</Value>
+						</YAxis>
+						<Values currentSizeX="6" currentSizeY="6">
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="8.49999999999999e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="3.15"/>
+								</Value>
+								<Value>
+									<Numeric value="4.5"/>
+								</Value>
+								<Value>
+									<Numeric value="5.0"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.6"/>
+								</Value>
+								<Value>
+									<Numeric value="2.35"/>
+								</Value>
+								<Value>
+									<Numeric value="3.6"/>
+								</Value>
+								<Value>
+									<Numeric value="4.5"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.3"/>
+								</Value>
+								<Value>
+									<Numeric value="1.55"/>
+								</Value>
+								<Value>
+									<Numeric value="2.7"/>
+								</Value>
+								<Value>
+									<Numeric value="3.80000000000001"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="8.00000000000001e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="1.5"/>
+								</Value>
+								<Value>
+									<Numeric value="2.8"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="3.99999999999999e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="0.9"/>
+								</Value>
+								<Value>
+									<Numeric value="1.9"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+							</Row>
+						</Values>
+					</TwoD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="h" elementOID="_040gs00g00001o0704ag49pm5rv02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Landscape" elementOID="_040gs00g00001o0704ag49pm5rs02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="20" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="20">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+							<Value>
+								<Numeric value="145.569620253165"/>
+							</Value>
+							<Value>
+								<Numeric value="202.53164556962"/>
+							</Value>
+							<Value>
+								<Numeric value="221.518987341772"/>
+							</Value>
+							<Value>
+								<Numeric value="240.0"/>
+							</Value>
+							<Value>
+								<Numeric value="259.493670886076"/>
+							</Value>
+							<Value>
+								<Numeric value="300.0"/>
+							</Value>
+							<Value>
+								<Numeric value="350.0"/>
+							</Value>
+							<Value>
+								<Numeric value="400.0"/>
+							</Value>
+							<Value>
+								<Numeric value="450.0"/>
+							</Value>
+							<Value>
+								<Numeric value="500.0"/>
+							</Value>
+							<Value>
+								<Numeric value="600.0"/>
+							</Value>
+							<Value>
+								<Numeric value="700.0"/>
+							</Value>
+							<Value>
+								<Numeric value="750.0"/>
+							</Value>
+							<Value>
+								<Numeric value="800.0"/>
+							</Value>
+							<Value>
+								<Numeric value="810.0"/>
+							</Value>
+							<Value>
+								<Numeric value="850.0"/>
+							</Value>
+							<Value>
+								<Numeric value="900.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1000.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="20">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="4.0"/>
+							</Value>
+							<Value>
+								<Numeric value="7.125"/>
+							</Value>
+							<Value>
+								<Numeric value="10.375"/>
+							</Value>
+							<Value>
+								<Numeric value="10.75"/>
+							</Value>
+							<Value>
+								<Numeric value="10.5"/>
+							</Value>
+							<Value>
+								<Numeric value="9.0"/>
+							</Value>
+							<Value>
+								<Numeric value="5.375"/>
+							</Value>
+							<Value>
+								<Numeric value="2.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="1.25"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1.375"/>
+							</Value>
+							<Value>
+								<Numeric value="0.75"/>
+							</Value>
+							<Value>
+								<Numeric value="0.375"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="lastbrake" elementOID="_040gs00g00001o0704ag49pm5rrg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="powerAccel" elementOID="_040gs00g00001o0704ag49pm5rp02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="theirData" OID="_040vs0g17s001o0704dvr8vj0sl1m" default="false" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:26:45" timeStampCounter="2821"/>
+		<DataEntry elementName="AirFriction" elementOID="_040gs00g00001o0704ag49pm5rtg2">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="30.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="90.0"/>
+							</Value>
+							<Value>
+								<Numeric value="120.0"/>
+							</Value>
+							<Value>
+								<Numeric value="150.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.1"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.2"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.4"/>
+							</Value>
+							<Value>
+								<Numeric value="-0.8"/>
+							</Value>
+							<Value>
+								<Numeric value="-1.6"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="brakeAccel" elementOID="_040gs00g00001o0704ag49pm5ru02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="brakebuff" elementOID="_040gs00g00001o0704ag49pm5rng2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="BrakeMomentum" elementOID="_040gs00g00001o0704ag49pm5rq02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1.0"/>
+							</Value>
+							<Value>
+								<Numeric value="40.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="80.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-1.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-2.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-3.0"/>
+							</Value>
+							<Value>
+								<Numeric value="-4.0"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="cont" elementOID="_040gs00g00001o0704ag49pm5rpg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="dh" elementOID="_040gs00g00001o0704ag49pm5rqg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="ds" elementOID="_040gs00g00001o0704ag49pm5rsg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="EngineMomentum" elementOID="_040gs00g00001o0704ag49pm5ro02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<TwoD currentSizeX="6" currentSizeY="6" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="5.0"/>
+							</Value>
+							<Value>
+								<Numeric value="20.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.126582278481"/>
+							</Value>
+							<Value>
+								<Numeric value="80.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+						</XAxis>
+						<YAxis currentSizeX="6">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="30.0"/>
+							</Value>
+							<Value>
+								<Numeric value="60.0"/>
+							</Value>
+							<Value>
+								<Numeric value="90.0"/>
+							</Value>
+							<Value>
+								<Numeric value="150.0"/>
+							</Value>
+							<Value>
+								<Numeric value="200.0"/>
+							</Value>
+						</YAxis>
+						<Values currentSizeX="6" currentSizeY="6">
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="8.49999999999999e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="3.15"/>
+								</Value>
+								<Value>
+									<Numeric value="4.5"/>
+								</Value>
+								<Value>
+									<Numeric value="5.0"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.6"/>
+								</Value>
+								<Value>
+									<Numeric value="2.35"/>
+								</Value>
+								<Value>
+									<Numeric value="3.6"/>
+								</Value>
+								<Value>
+									<Numeric value="4.5"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.3"/>
+								</Value>
+								<Value>
+									<Numeric value="1.55"/>
+								</Value>
+								<Value>
+									<Numeric value="2.7"/>
+								</Value>
+								<Value>
+									<Numeric value="3.80000000000001"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="8.00000000000001e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="1.5"/>
+								</Value>
+								<Value>
+									<Numeric value="2.8"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="3.99999999999999e-1"/>
+								</Value>
+								<Value>
+									<Numeric value="0.9"/>
+								</Value>
+								<Value>
+									<Numeric value="1.9"/>
+								</Value>
+							</Row>
+							<Row currentSizeX="6">
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+								<Value>
+									<Numeric value="0.0"/>
+								</Value>
+							</Row>
+						</Values>
+					</TwoD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="h" elementOID="_040gs00g00001o0704ag49pm5rv02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Landscape" elementOID="_040gs00g00001o0704ag49pm5rs02">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="20" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="20">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="100.0"/>
+							</Value>
+							<Value>
+								<Numeric value="145.569620253165"/>
+							</Value>
+							<Value>
+								<Numeric value="202.53164556962"/>
+							</Value>
+							<Value>
+								<Numeric value="221.518987341772"/>
+							</Value>
+							<Value>
+								<Numeric value="240.0"/>
+							</Value>
+							<Value>
+								<Numeric value="259.493670886076"/>
+							</Value>
+							<Value>
+								<Numeric value="300.0"/>
+							</Value>
+							<Value>
+								<Numeric value="350.0"/>
+							</Value>
+							<Value>
+								<Numeric value="400.0"/>
+							</Value>
+							<Value>
+								<Numeric value="450.0"/>
+							</Value>
+							<Value>
+								<Numeric value="500.0"/>
+							</Value>
+							<Value>
+								<Numeric value="600.0"/>
+							</Value>
+							<Value>
+								<Numeric value="700.0"/>
+							</Value>
+							<Value>
+								<Numeric value="750.0"/>
+							</Value>
+							<Value>
+								<Numeric value="800.0"/>
+							</Value>
+							<Value>
+								<Numeric value="810.0"/>
+							</Value>
+							<Value>
+								<Numeric value="850.0"/>
+							</Value>
+							<Value>
+								<Numeric value="900.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1000.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="20">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="4.0"/>
+							</Value>
+							<Value>
+								<Numeric value="7.125"/>
+							</Value>
+							<Value>
+								<Numeric value="10.375"/>
+							</Value>
+							<Value>
+								<Numeric value="10.75"/>
+							</Value>
+							<Value>
+								<Numeric value="10.5"/>
+							</Value>
+							<Value>
+								<Numeric value="9.0"/>
+							</Value>
+							<Value>
+								<Numeric value="5.375"/>
+							</Value>
+							<Value>
+								<Numeric value="2.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="1.25"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1.375"/>
+							</Value>
+							<Value>
+								<Numeric value="0.75"/>
+							</Value>
+							<Value>
+								<Numeric value="0.375"/>
+							</Value>
+							<Value>
+								<Numeric value="0.625"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="lastbrake" elementOID="_040gs00g00001o0704ag49pm5rrg2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="powerAccel" elementOID="_040gs00g00001o0704ag49pm5rp02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="20.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>altwoCUuftVocUb0QQgBQRFJQxQ=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>cynoENh1ymw1SG2whViwB/y1Y/dht9/+2rTYfoV9Xd0zUvCG/17KsC5LP/Af855c
+i5lCn5bMbLVsOiVhwzYlx2CbaLkNbvclWun7ntpOxDwC9JExXZW5y4E2tgmdghK7
+6HrmxEjbIi9uKac3M5yPrP0eRES8j5tOwDPUv+BxZqkDYnILtb3Ynf2S7F3zzncW
+81wG3AKOPxLlY2RQrQQ10TX+np2r3HwsGjYyzkzMN07J9gLRFPRZV6fCqtY0/cPA
+yQVbgysg3V9EQoGtQUN3gCmPcskAkVVIZOumsSv7zx6WaEk7TE7jBsXO+5dULNcS
+J9Ge6ruD7gqi8Ab6zMthSQ==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

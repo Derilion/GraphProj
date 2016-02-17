@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EE_GUI xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ToolName="ASCET" Version="6.2.1.0">
+	<Experiment ID="_040gs00g00001o0704ag4bhrp6506" Version="Undefined" Name="test" timestamp="2016-01-21T09:51:09" comment="Experiment for: EdgeFallinig" collapsedView="true" offlineMeasureRate="1" animatedStates="false">
+		<Position x="4" y="42"/>
+		<Size x="1666" y="722"/>
+		<DataGenerator automaticStop="false" interpolate="false" repeat="false" ignoreTimestampOffset="false">
+			<Channel Name="DetectDecrease/compute(/signal" ID="_040gs00g00001o0704ag4bhrhdr06">
+				<Sinus frequency="5.0" phase="0.0">
+					<Numeric amplitude="1.0" offset="0.0"/>
+				</Sinus>
+			</Channel>
+		</DataGenerator>
+		<EventGenerator stepMode="Steps" steps="1">
+			<Channel name="out" degreesCS="180" delay="0.01" enabled="true" mode="timeSynchron" phase="0.0" priority="5"/>
+			<Channel name="generateData" degreesCS="180" delay="0.01" enabled="true" mode="timeSynchron" phase="0.0" priority="1"/>
+			<Channel name="compute" degreesCS="180" delay="0.01" enabled="true" mode="timeSynchron" phase="0.0" priority="5"/>
+		</EventGenerator>
+		<Layers>
+			<Layer>
+				<LayerLayout>
+					<WidgetGroup Name="Oscilloscope; 1" longName="Oscilloscope; 1 (21.01.2016 09:51:09)" iconized="false" maximized="false">
+						<Position x="407" y="345"/>
+						<Size x="415" y="325"/>
+						<Widget Name="Oscilloscope; 1" Category="Oscilloscope" Type="RBOscilloscopeWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<OscilloscopeSettings triggerActive="false" autoActivate="true" preTriggerRatio="0" showKeyHelp="false" singleWAxis="false" state="0" triggerCondition="" triggerType="analog" viewMinMax="false" viewRate="false" jumpToNextTimeMode="true" jumpDistance="0.0" bigJumpDistance="10" timePrecision="3" valPrecision="3" xMin="197.0" xMax="198.0">
+										<ActiveCursor red="65535" green="65535" blue="0"/>
+										<AxisGrid red="32639" green="32639" blue="32639"/>
+										<AxisLine red="65535" green="65535" blue="65535"/>
+										<InactiveCursor red="52428" green="52428" blue="52428"/>
+										<TriggerMarker red="0" green="65535" blue="0"/>
+									</OscilloscopeSettings>
+									<ElementConfig acquisitionTaskName="Dummy Device">
+										<OscilloscopeConfig displayType="line" hexView="false" showGrid="true" min="-1.0" max="1.0">
+											<Color red="65535" green="0" blue="0"/>
+										</OscilloscopeConfig>
+										<ElementReference ID="_040gs00g00001o0704ag4bhrhdr06" UniqueName="DetectDecrease/compute(/signal"/>
+									</ElementConfig>
+									<ElementConfig acquisitionTaskName="Dummy Device">
+										<OscilloscopeConfig/>
+										<ElementReference ID="_040gs00g00001o0704ag4bhrhdrg6" UniqueName="DetectDecrease/out(/return"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+					</WidgetGroup>
+				</LayerLayout>
+			</Layer>
+		</Layers>
+		<CTSolvers/>
+		<Elements>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="DetectDecrease/out(/return" ID="_040gs00g00001o0704ag4bhrhdrg6"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="DetectDecrease/compute(/signal" ID="_040gs00g00001o0704ag4bhrhdr06"/>
+					</Group>
+				</Device>
+			</Measurement>
+		</Elements>
+	</Experiment>
+	<Experiment ID="_040gs00g00001o0704ag4bhrna4g6" Version="Undefined" Name="Default" timestamp="1996-04-03T10:27:00" comment="Experiment for: EdgeFallinig">
+		<Layers>
+			<Layer>
+				<LayerLayout/>
+			</Layer>
+		</Layers>
+		<Elements>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="DetectDecrease/out(/return" ID="_040gs00g00001o0704ag4bhrhdrg6"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="DetectDecrease/compute(/signal" ID="_040gs00g00001o0704ag4bhrhdr06"/>
+					</Group>
+				</Device>
+			</Measurement>
+		</Elements>
+	</Experiment>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>eM2DLuw36coz/wg9hp9XskrZk48=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>bBAfaXSi3L8R0ZCWnkxjeJtDObraDBxSOI0eM1IGPO9Fiduk5vipXptfA6JQO0WE
+pMQgSSnfivqFgFn9Ruk5ElPjgVN0wuSKKVjodbxsA3DBG/rBh4tFIA0miliPQg9p
+CZBUybyQ9LsdF3GSnqQ0KDDgRQ3iB2fk2wqkdwpmOSOrMfnE2E2ywvOoNnJdnAuv
+1vhwuWhopsE8cJRDdqz1L2yEfpX9Oje+jKfiixuDMtBA6d9BfWGnYZsUuvd35Dof
+efgdzRIWUe0IoAnfcTuUZbUoxrnUYl0EAKaBlfKPw23U/j5eBicB/udfjviWWBp7
+AjgnUtCDEHv3N9fXDKK4bw==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</EE_GUI>

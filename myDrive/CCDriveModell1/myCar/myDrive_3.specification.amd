@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specifications xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<Layout graphicOID="-1" flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="true" hideIcon="false">
+		<LineStyle width="1" type="LineSolid">
+			<Color red="0" green="0" blue="0"/>
+		</LineStyle>
+		<FillColor red="65535" green="65535" blue="65535"/>
+		<Position x="960" y="600"/>
+		<LabelPosition x="960" y="690"/>
+		<Interfaces>
+			<MethodPort methodName="set" defaultMethod="true">
+				<SequenceCall graphicOID="-1" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+					<Position x="780" y="700"/>
+				</SequenceCall>
+				<SelectorPort graphicOID="-1" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+					<Position x="770" y="670"/>
+				</SelectorPort>
+			</MethodPort>
+			<ReturnPort graphicOID="-1" location="left" visibility="true" nameVisibility="true" tempVar="false" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" returnElementOID="_040gs00g00001o0704ag49pm5o0g4" defaultPort="false">
+				<Position x="1150" y="620"/>
+				<SelectorPort graphicOID="-1" direction="right" visibility="true" nameVisibility="true" elementOID="_040gs00g00001o0704ag49pm5o004" elementName="brakeCtrl">
+					<Position x="770" y="580"/>
+				</SelectorPort>
+				<SelectorPort graphicOID="-1" direction="right" visibility="true" nameVisibility="true" elementOID="_040gs00g00001o0704ag49pm5rvg2" elementName="powerCtrl">
+					<Position x="770" y="550"/>
+				</SelectorPort>
+			</ReturnPort>
+			<ReturnPort graphicOID="-1" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+				<Position x="1150" y="670"/>
+			</ReturnPort>
+			<MemberGetPort direction="left" graphicOID="-1" visibility="true" nameVisibility="true" elementOID="_040gs00g00001o0704ag49pm5rp02" elementName="powerAccel">
+				<Position x="1150" y="550"/>
+			</MemberGetPort>
+			<MemberGetPort direction="left" graphicOID="-1" visibility="true" nameVisibility="true" elementOID="_040gs00g00001o0704ag49pm5rt02" elementName="s">
+				<Position x="1150" y="650"/>
+			</MemberGetPort>
+			<MemberGetPort direction="left" graphicOID="-1" visibility="true" nameVisibility="true" elementOID="_040gs00g00001o0704ag49pm5ru02" elementName="brakeAccel">
+				<Position x="1150" y="580"/>
+			</MemberGetPort>
+		</Interfaces>
+		<Size x="190" y="70"/>
+		<Icon iconName="/myCar/myDrive" iconOID="_040vs000001g1ng704403d5joo500">
+			<Size x="190" y="70"/>
+		</Icon>
+	</Layout>
+	<Specification name="Main" public="public">
+		<BlockDiagramSpecification highestUsedGraphicalIdentifier="200">
+			<ESDLCode>
+				<MethodBodies>
+					<MethodBody methodName="vCar"/>
+				</MethodBodies>
+			</ESDLCode>
+			<DiagramElements>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="2">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="81">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="400" y="110"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="7">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="52">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="180" y="410"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="10">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="25">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="170" y="50"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="13">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="34">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="240" y="100"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="18">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="35">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="230" y="150"/>
+							<BendPoint x="230" y="120"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="18">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="118">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="230" y="150"/>
+							<BendPoint x="230" y="170"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="24">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="198">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false"/>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="33">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="1">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="340" y="110"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="42">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="56">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="510" y="370"/>
+							<BendPoint x="510" y="420"/>
+							<BendPoint x="410" y="420"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="48">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="51">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="170" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="50">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="99">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="260" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="54">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="41">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="440" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="59">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="62">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="170" y="460"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="61">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="68">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="290" y="470"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="66">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="63">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="190" y="480"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="69">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="168">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="350" y="470"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="70">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="15">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="610" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="70">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="122">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="630" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="74">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="159">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="420" y="480"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="77">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="105">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="170" y="310"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="79">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="95">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="500" y="120"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="85">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="92">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="840" y="120"/>
+							<BendPoint x="840" y="150"/>
+							<BendPoint x="710" y="150"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="88">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="96">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="630" y="150"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="90">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="84">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="770" y="120"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="94">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="91">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="690" y="120"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="98">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="128">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="320" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="102">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="112">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="630" y="90"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="104">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="139">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="240" y="310"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="104">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="140">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="310" y="310"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="107">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="123">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="600" y="420"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="107">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="175">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="600" y="440"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="110">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="187">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="760" y="410"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="114">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="100">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="280" y="410"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="117">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="82">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="430" y="170"/>
+							<BendPoint x="430" y="130"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="121">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="109">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="690" y="410"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="129">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="55">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="380" y="370"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="129">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="147">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="380" y="280"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="132">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="146">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="370" y="260"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="135">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="138">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="210" y="260"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="137">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="131">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="310" y="260"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="143">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="152">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="360" y="220"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="145">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="153">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="420" y="260"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="149">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="115">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="440" y="140"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="199">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="80">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="440" y="50"/>
+							<BendPoint x="440" y="100"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="0" elementName="powerAccel" elementOID="_040gs00g00001o0704ag49pm5rp02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="370" y="110"/>
+						<LabelPosition x="370" y="120"/>
+						<Interfaces>
+							<ReturnPort graphicOID="2" location="left"/>
+							<SelectorPort graphicOID="1" location="right">
+								<SequenceCall graphicOID="3" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="2" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="350" y="100"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="5" elementName="dT" elementOID="_040gs00g00001o0704ag49pm5rug2" type="Variable">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="410"/>
+						<LabelPosition x="140" y="420"/>
+						<Interfaces>
+							<ReturnPort graphicOID="7" location="left"/>
+							<SelectorPort graphicOID="6" location="right">
+								<SequenceCall graphicOID="196" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="110" y="400"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="8" elementName="brakeCtrl" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5o004" type="Argument">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="50"/>
+						<LabelPosition x="140" y="60"/>
+						<Interfaces>
+							<ReturnPort graphicOID="10" location="left"/>
+							<SelectorPort graphicOID="9" location="right">
+								<SequenceCall graphicOID="151" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="110" y="40"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="11" elementName="powerCtrl" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5rvg2" type="Argument">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="100"/>
+						<LabelPosition x="140" y="110"/>
+						<Interfaces>
+							<ReturnPort graphicOID="13" location="left"/>
+							<SelectorPort graphicOID="12" location="right">
+								<SequenceCall graphicOID="150" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="110" y="90"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="14" elementName="return" methodName="vCar" elementOID="_040gs00g00001o0704ag49pm5o0g4" type="Return">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="810" y="370"/>
+						<LabelPosition x="810" y="380"/>
+						<Interfaces>
+							<SelectorPort graphicOID="15" location="right">
+								<SequenceCall graphicOID="32" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="15" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="780" y="360"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="16" elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="150"/>
+						<LabelPosition x="140" y="160"/>
+						<Interfaces>
+							<ReturnPort graphicOID="18" location="left"/>
+							<SelectorPort graphicOID="17" location="right">
+								<SequenceCall graphicOID="176" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="110" y="140"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<ComplexElement flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="true" hideIcon="false" graphicOID="19" elementName="EngineMomentum" elementOID="_040gs00g00001o0704ag49pm5ro02" type="CharTable2D">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="270" y="110"/>
+						<LabelPosition x="270" y="140"/>
+						<Interfaces>
+							<MethodPort methodName="search" defaultMethod="true">
+								<SequenceCall graphicOID="173" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="270" y="60"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="22" direction="down" visibility="false" nameVisibility="false" name="x">
+									<Position x="260" y="90"/>
+								</SelectorPort>
+								<SelectorPort graphicOID="30" direction="down" visibility="false" nameVisibility="false" name="y">
+									<Position x="280" y="90"/>
+								</SelectorPort>
+							</MethodPort>
+							<MethodPort methodName="set" defaultMethod="true">
+								<SequenceCall graphicOID="174" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="260" y="160"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="37" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+									<Position x="250" y="130"/>
+								</SelectorPort>
+							</MethodPort>
+							<ReturnPort graphicOID="36" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+								<Position x="290" y="130"/>
+							</ReturnPort>
+							<ReturnPort graphicOID="33" location="left" visibility="true" nameVisibility="false" tempVar="false" methodName="getAt" defaultPort="true">
+								<Position x="290" y="110"/>
+								<SelectorPort graphicOID="34" direction="right" visibility="true" nameVisibility="false" name="x">
+									<Position x="250" y="100"/>
+								</SelectorPort>
+								<SelectorPort graphicOID="35" direction="right" visibility="true" nameVisibility="false" name="y">
+									<Position x="250" y="120"/>
+								</SelectorPort>
+							</ReturnPort>
+							<ReturnPort graphicOID="31" location="up" visibility="false" nameVisibility="false" tempVar="false" methodName="interpolate" defaultPort="true">
+								<Position x="280" y="130"/>
+							</ReturnPort>
+						</Interfaces>
+						<Size x="20" y="20"/>
+						<Icon>
+							<Size x="20" y="20"/>
+						</Icon>
+					</ComplexElement>
+				</DiagramElement>
+				<DiagramElement>
+					<ComplexElement flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="true" hideIcon="false" graphicOID="20" elementName="BrakeMomentum" elementOID="_040gs00g00001o0704ag49pm5rq02" type="CharTable1D">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="270" y="50"/>
+						<LabelPosition x="270" y="80"/>
+						<Interfaces>
+							<MethodPort methodName="search" defaultMethod="true">
+								<SequenceCall graphicOID="169" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="270" y="0"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="21" direction="down" visibility="false" nameVisibility="false" name="x">
+									<Position x="260" y="30"/>
+								</SelectorPort>
+							</MethodPort>
+							<MethodPort methodName="set" defaultMethod="true">
+								<SequenceCall graphicOID="171" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="260" y="100"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="27" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+									<Position x="250" y="70"/>
+								</SelectorPort>
+							</MethodPort>
+							<ReturnPort graphicOID="26" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+								<Position x="290" y="70"/>
+							</ReturnPort>
+							<ReturnPort graphicOID="24" location="left" visibility="true" nameVisibility="false" tempVar="false" methodName="getAt" defaultPort="true">
+								<Position x="290" y="50"/>
+								<SelectorPort graphicOID="25" direction="right" visibility="true" nameVisibility="false" name="x">
+									<Position x="250" y="50"/>
+								</SelectorPort>
+							</ReturnPort>
+							<ReturnPort graphicOID="23" location="up" visibility="false" nameVisibility="false" tempVar="false" methodName="interpolate" defaultPort="true">
+								<Position x="280" y="70"/>
+							</ReturnPort>
+						</Interfaces>
+						<Size x="20" y="20"/>
+						<Icon>
+							<Size x="20" y="20"/>
+						</Icon>
+					</ComplexElement>
+				</DiagramElement>
+				<DiagramElement>
+					<ComplexElement flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="true" hideIcon="false" graphicOID="28" elementName="AirFriction" elementOID="_040gs00g00001o0704ag49pm5rtg2" type="CharTable1D">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="270" y="170"/>
+						<LabelPosition x="270" y="200"/>
+						<Interfaces>
+							<MethodPort methodName="search" defaultMethod="true">
+								<SequenceCall graphicOID="179" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="270" y="120"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="29" direction="down" visibility="false" nameVisibility="false" name="x">
+									<Position x="260" y="150"/>
+								</SelectorPort>
+							</MethodPort>
+							<MethodPort methodName="set" defaultMethod="true">
+								<SequenceCall graphicOID="180" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="260" y="220"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="120" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+									<Position x="250" y="190"/>
+								</SelectorPort>
+							</MethodPort>
+							<ReturnPort graphicOID="119" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+								<Position x="290" y="190"/>
+							</ReturnPort>
+							<ReturnPort graphicOID="117" location="left" visibility="true" nameVisibility="false" tempVar="false" methodName="getAt" defaultPort="true">
+								<Position x="290" y="170"/>
+								<SelectorPort graphicOID="118" direction="right" visibility="true" nameVisibility="false" name="x">
+									<Position x="250" y="170"/>
+								</SelectorPort>
+							</ReturnPort>
+							<ReturnPort graphicOID="116" location="up" visibility="false" nameVisibility="false" tempVar="false" methodName="interpolate" defaultPort="true">
+								<Position x="280" y="190"/>
+							</ReturnPort>
+						</Interfaces>
+						<Size x="20" y="20"/>
+						<Icon>
+							<Size x="20" y="20"/>
+						</Icon>
+					</ComplexElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="38" elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="580" y="370"/>
+						<LabelPosition x="580" y="380"/>
+						<Interfaces>
+							<ReturnPort graphicOID="70" location="left"/>
+							<SelectorPort graphicOID="39" location="right">
+								<SequenceCall graphicOID="157" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="550" y="360"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="40" elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="470" y="370"/>
+						<LabelPosition x="470" y="380"/>
+						<Interfaces>
+							<ReturnPort graphicOID="42" location="left"/>
+							<SelectorPort graphicOID="41" location="right">
+								<SequenceCall graphicOID="164" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="7" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="440" y="360"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="46" elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="370"/>
+						<LabelPosition x="140" y="380"/>
+						<Interfaces>
+							<ReturnPort graphicOID="48" location="left"/>
+							<SelectorPort graphicOID="47" location="right">
+								<SequenceCall graphicOID="166" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="110" y="360"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="49" type="*" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="180" y="370"/>
+						<Interfaces>
+							<ReturnPort graphicOID="50" location="right">
+								<SelectorPort graphicOID="51" index="0" location="left"/>
+								<SelectorPort graphicOID="52" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="53" type="+" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="410" y="370"/>
+						<Interfaces>
+							<ReturnPort graphicOID="54" location="right">
+								<SelectorPort graphicOID="55" index="0" location="left"/>
+								<SelectorPort graphicOID="56" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="57" elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="460"/>
+						<LabelPosition x="140" y="470"/>
+						<Interfaces>
+							<ReturnPort graphicOID="59" location="left"/>
+							<SelectorPort graphicOID="58" location="right">
+								<SequenceCall graphicOID="161" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="110" y="450"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="60" type="&gt;" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="240" y="470"/>
+						<Interfaces>
+							<ReturnPort graphicOID="61" location="right">
+								<SelectorPort graphicOID="62" index="0" location="left"/>
+								<SelectorPort graphicOID="63" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="64" elementName="TrackSize" elementOID="_040gs00g00001o0704ag49pm5rog2" type="Parameter">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="160" y="480"/>
+						<LabelPosition x="160" y="490"/>
+						<Interfaces>
+							<ReturnPort graphicOID="66" location="left"/>
+							<SelectorPort graphicOID="65" location="right">
+								<SequenceCall graphicOID="162" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="130" y="470"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Control graphicOID="67" type="IfThen" arguments="1" returns="1">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="320" y="470"/>
+						<Interfaces>
+							<SelectorPort graphicOID="68" location="left">
+								<SequenceCall graphicOID="163" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="1" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="280" y="450"/>
+								</SequenceCall>
+							</SelectorPort>
+							<ReturnPort graphicOID="69" location="right" index="0"/>
+						</Interfaces>
+					</Control>
+				</DiagramElement>
+				<DiagramElement>
+					<ComplexElement flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="true" hideIcon="false" graphicOID="71" elementName="Landscape" elementOID="_040gs00g00001o0704ag49pm5rs02" type="CharTable1D">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="200" y="310"/>
+						<LabelPosition x="200" y="340"/>
+						<Interfaces>
+							<MethodPort methodName="search" defaultMethod="true">
+								<SequenceCall graphicOID="182" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="200" y="260"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="72" direction="down" visibility="false" nameVisibility="false" name="x">
+									<Position x="190" y="290"/>
+								</SelectorPort>
+							</MethodPort>
+							<MethodPort methodName="set" defaultMethod="true">
+								<SequenceCall graphicOID="183" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="190" y="360"/>
+								</SequenceCall>
+								<SelectorPort graphicOID="125" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+									<Position x="180" y="330"/>
+								</SelectorPort>
+							</MethodPort>
+							<ReturnPort graphicOID="124" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+								<Position x="220" y="330"/>
+							</ReturnPort>
+							<ReturnPort graphicOID="104" location="left" visibility="true" nameVisibility="false" tempVar="false" methodName="getAt" defaultPort="true">
+								<Position x="220" y="310"/>
+								<SelectorPort graphicOID="105" direction="right" visibility="true" nameVisibility="false" name="x">
+									<Position x="180" y="310"/>
+								</SelectorPort>
+							</ReturnPort>
+							<ReturnPort graphicOID="103" location="up" visibility="false" nameVisibility="false" tempVar="false" methodName="interpolate" defaultPort="true">
+								<Position x="210" y="330"/>
+							</ReturnPort>
+						</Interfaces>
+						<Size x="20" y="20"/>
+						<Icon>
+							<Size x="20" y="20"/>
+						</Icon>
+					</ComplexElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Literal graphicOID="73" value="0.0">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="390" y="480"/>
+						<Interfaces>
+							<ReturnPort graphicOID="74" location="right"/>
+						</Interfaces>
+					</Literal>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="75" elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="140" y="310"/>
+						<LabelPosition x="140" y="320"/>
+						<Interfaces>
+							<ReturnPort graphicOID="77" location="left"/>
+							<SelectorPort graphicOID="76" location="right">
+								<SequenceCall graphicOID="181" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="110" y="300"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="78" type="+" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="480" y="120"/>
+						<Interfaces>
+							<ReturnPort graphicOID="79" location="right">
+								<SelectorPort graphicOID="80" index="0" location="left"/>
+								<SelectorPort graphicOID="81" index="1" location="left"/>
+								<SelectorPort graphicOID="82" index="2" location="left"/>
+								<SelectorPort graphicOID="115" index="3" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="83" elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="800" y="120"/>
+						<LabelPosition x="800" y="130"/>
+						<Interfaces>
+							<ReturnPort graphicOID="85" location="left"/>
+							<SelectorPort graphicOID="84" location="right">
+								<SequenceCall graphicOID="178" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="10" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="740" y="110"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="86" elementName="dT" elementOID="_040gs00g00001o0704ag49pm5rug2" type="Variable">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="560" y="150"/>
+						<LabelPosition x="560" y="160"/>
+						<Interfaces>
+							<ReturnPort graphicOID="88" location="left"/>
+							<SelectorPort graphicOID="87" location="right">
+								<SequenceCall graphicOID="177" sequenceNumber="0" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="530" y="140"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="89" type="+" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="710" y="120"/>
+						<Interfaces>
+							<ReturnPort graphicOID="90" location="right">
+								<SelectorPort graphicOID="91" index="0" location="left"/>
+								<SelectorPort graphicOID="92" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="93" type="*" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="630" y="120"/>
+						<Interfaces>
+							<ReturnPort graphicOID="94" location="right">
+								<SelectorPort graphicOID="95" index="0" location="left"/>
+								<SelectorPort graphicOID="96" index="1" location="left"/>
+								<SelectorPort graphicOID="112" index="2" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="97" type="/" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="280" y="370"/>
+						<Interfaces>
+							<ReturnPort graphicOID="98" location="right">
+								<SelectorPort graphicOID="99" index="0" location="left"/>
+								<SelectorPort graphicOID="100" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Literal graphicOID="101" value="3.6">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="560" y="90"/>
+						<Interfaces>
+							<ReturnPort graphicOID="102" location="right"/>
+						</Interfaces>
+					</Literal>
+				</DiagramElement>
+				<DiagramElement>
+					<Literal graphicOID="106" value="0.0">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="570" y="440"/>
+						<Interfaces>
+							<ReturnPort graphicOID="107" location="right"/>
+						</Interfaces>
+					</Literal>
+				</DiagramElement>
+				<DiagramElement>
+					<Control graphicOID="108" type="IfThen" arguments="1" returns="1">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="720" y="410"/>
+						<Interfaces>
+							<SelectorPort graphicOID="109" location="left">
+								<SequenceCall graphicOID="158" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="11" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="700" y="390"/>
+								</SequenceCall>
+							</SelectorPort>
+							<ReturnPort graphicOID="110" location="right" index="0"/>
+						</Interfaces>
+					</Control>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="111" type="&lt;" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="650" y="410"/>
+						<Interfaces>
+							<ReturnPort graphicOID="121" location="right">
+								<SelectorPort graphicOID="122" index="0" location="left"/>
+								<SelectorPort graphicOID="123" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Literal graphicOID="113" value="3.6">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="230" y="410"/>
+						<Interfaces>
+							<ReturnPort graphicOID="114" location="right"/>
+						</Interfaces>
+					</Literal>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="126" elementName="h" elementOID="_040gs00g00001o0704ag49pm5rv02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="340" y="310"/>
+						<LabelPosition x="340" y="320"/>
+						<Interfaces>
+							<ReturnPort graphicOID="141" location="left"/>
+							<SelectorPort graphicOID="140" location="right">
+								<SequenceCall graphicOID="184" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="9" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="280" y="300"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="127" elementName="ds" elementOID="_040gs00g00001o0704ag49pm5rsg2" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="350" y="370"/>
+						<LabelPosition x="350" y="380"/>
+						<Interfaces>
+							<ReturnPort graphicOID="129" location="left"/>
+							<SelectorPort graphicOID="128" location="right">
+								<SequenceCall graphicOID="155" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="5" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="310" y="360"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="130" elementName="dh" elementOID="_040gs00g00001o0704ag49pm5rqg2" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="340" y="260"/>
+						<LabelPosition x="340" y="270"/>
+						<Interfaces>
+							<ReturnPort graphicOID="132" location="left"/>
+							<SelectorPort graphicOID="131" location="right">
+								<SequenceCall graphicOID="170" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="8" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="280" y="250"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="133" elementName="h" elementOID="_040gs00g00001o0704ag49pm5rv02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="180" y="260"/>
+						<LabelPosition x="180" y="270"/>
+						<Interfaces>
+							<ReturnPort graphicOID="135" location="left"/>
+							<SelectorPort graphicOID="134" location="right">
+								<SequenceCall graphicOID="154" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="150" y="250"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="136" type="-" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="240" y="260"/>
+						<Interfaces>
+							<ReturnPort graphicOID="137" location="right">
+								<SelectorPort graphicOID="138" index="0" location="left"/>
+								<SelectorPort graphicOID="139" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Literal graphicOID="142" value="9.81">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="330" y="220"/>
+						<Interfaces>
+							<ReturnPort graphicOID="143" location="right"/>
+						</Interfaces>
+					</Literal>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="144" type="/" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="380" y="260"/>
+						<Interfaces>
+							<ReturnPort graphicOID="145" location="right">
+								<SelectorPort graphicOID="146" index="0" location="left"/>
+								<SelectorPort graphicOID="147" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="148" type="*" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="420" y="220"/>
+						<Interfaces>
+							<ReturnPort graphicOID="149" location="right">
+								<SelectorPort graphicOID="152" index="0" location="left"/>
+								<SelectorPort graphicOID="153" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="156" elementName="s" elementOID="_040gs00g00001o0704ag49pm5rt02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="490" y="480"/>
+						<LabelPosition x="490" y="490"/>
+						<Interfaces>
+							<ReturnPort graphicOID="160" location="left"/>
+							<SelectorPort graphicOID="159" location="right">
+								<SequenceCall graphicOID="167" connectOID="168" sequenceNumber="1" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="460" y="470"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="172" elementName="v" elementOID="_040gs00g00001o0704ag49pm5rr02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="800" y="440"/>
+						<LabelPosition x="800" y="450"/>
+						<Interfaces>
+							<ReturnPort graphicOID="185" location="left"/>
+							<SelectorPort graphicOID="175" location="right">
+								<SequenceCall graphicOID="186" connectOID="187" sequenceNumber="1" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="770" y="430"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="197" elementName="brakeAccel" elementOID="_040gs00g00001o0704ag49pm5ru02" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="370" y="50"/>
+						<LabelPosition x="370" y="60"/>
+						<Interfaces>
+							<ReturnPort graphicOID="199" location="left"/>
+							<SelectorPort graphicOID="198" location="right">
+								<SequenceCall graphicOID="200" methodName="vCar" methodOID="_040gs00g00001o0704ag49pm5o104" sequenceNumber="3" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="350" y="40"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Comment visible="true" graphicOID="-1">
+						<Position x="640" y="180"/>
+						<Text>General idea is to focus on force balance and therby neglect &#13;
+inertial effects (mass factors). Hence, engine momentum is &#13;
+balance by braking, air friction and slope (landscape effect).&#13;
+&#13;
+Velocity here is in km/h but all accelarations are in m/s^2.&#13;
+&#13;
+The track is understood to be a closed 1000m cycle.&#13;
+&#13;
+Although theoretically possible, no negative velocities are allowed - &#13;
+the driver is expected to use a static brake here.&#13;
+&#13;
+Effects of gear shift and clutch are also neglected here.</Text>
+					</Comment>
+				</DiagramElement>
+			</DiagramElements>
+		</BlockDiagramSpecification>
+	</Specification>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>6qB05NwBzLNcXhKRFhc+4d8y3dQ=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>EbWK2FoLVeadPWn0u1VElAMsRqp83zM1KSs55LtuyHYoNDYNRHS70gz1k5vZhR0M
+yfxFe13VZM4yPHXfDbcvQ0HICSXABHvi8CnVmhfDx6l06YcJy4ihzrS0LAYaxsos
+kpTQe3uL4rL4hYRt4WmRNCLaIUU2RlsB73CHCFDAZ8FXbgzFJzvlPv9ndVcF0MQS
+iuf7FgvssVAHQjG65q9kA724p0o2BjDRWivEI90FUZdxY1BkT3wzCFxT+kP0eqfL
+htRQ/HesIPROoVFI910TEl9VxV01l/uR/l6XzM2SifI5uMIyDu+PFCZ+UC79+RvH
+Vr1cuAY0RVCqh7s5xSCPVQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</Specifications>

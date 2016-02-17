@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.3.0" schemaVersion="6.2.0.0">
+	<DataSet name="myDrive_3_DEFAULT" OID="_040gs00g00001o0704ag49pmbk704" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:49:25" timeStampCounter="4"/>
+		<DataEntry elementName="dT" elementOID="_040gs00g00001o0704ag49pm9k504">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040gs00g00001o0704ag49pm9k604" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:47:40" timeStampCounter="2"/>
+		<DataEntry elementName="myDrive_3" elementOID="_040gs00g00001o0704ag49pm9k5g4">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040gs00g00001o0704ag49pm5o1g4"/>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>0yUdwIzpcdJ6rclcwNVMvPUNrvQ=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>PIxewRBcJgBTys33/doNxebVh2W5TqEDnGrz54j36YZAawa8ytHA+d0DXN1nVzwj
+cExMxBj9uJ2wuVSYpF/JDf3ICJhdBRNMK6CnFkt5ihFYgJYqQSmBcLM759Wfg59O
+Wb01h1sCNNUFhzWDz4asmaNyVnXXG5A/sAv2zQ8QhW8yaA9CDLfDtu2aEIcvUSre
+UzpiBMJW0L1ap0/+W1we31hRIVNThBFETUclQh3+RLRHcHx5Z296jp9/XWRgwDtz
+c1mw0jG+pYp2d/vAi9VFHmRPegMb12iYDPLAMdurF4+hPBrdOZMwFNd9D7qqXfXu
+iWhO4hMU4Dx/5SLiQbv/yw==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

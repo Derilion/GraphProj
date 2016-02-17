@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.7">
+	<Component defaultProjectName="myDrive_3_DEFAULT" defaultProjectOID="_040gs00g00001o0704ag49pm7o4g4" specificationType="BlockDiagram" name="myDrive_3" nameSpace="/myCar" OID="_040gs00g00001o0704ag49pm3vn02" timeStamp="2016-01-27T22:26:34" componentType="ASCET_Class">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T22:26:35" timeStampCounter="2816"/>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<Elements>
+			<Element name="AirFriction" OID="_040gs00g00001o0704ag49pm5rtg2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="oned" basicModelType="cont" unit="">
+					<DimensionalType maxSizeX="6" type="normal">
+						<DimensionalAttributes virtual="false" dependent="false" reference="false" scope="local" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="true"/>
+					</DimensionalType>
+				</ElementAttributes>
+			</Element>
+			<Element name="brakeAccel" OID="_040gs00g00001o0704ag49pm5ru02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="true" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="brakebuff" OID="_040gs00g00001o0704ag49pm5rng2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="BrakeMomentum" OID="_040gs00g00001o0704ag49pm5rq02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="oned" basicModelType="cont" unit="">
+					<DimensionalType maxSizeX="6" type="normal">
+						<DimensionalAttributes virtual="false" dependent="false" reference="false" scope="local" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="true"/>
+					</DimensionalType>
+				</ElementAttributes>
+			</Element>
+			<Element name="cont" OID="_040gs00g00001o0704ag49pm5rpg2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="dh" OID="_040gs00g00001o0704ag49pm5rqg2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="ds" OID="_040gs00g00001o0704ag49pm5rsg2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="dT" OID="_040gs00g00001o0704ag49pm5rug2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="dt" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="imported" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="EngineMomentum" OID="_040gs00g00001o0704ag49pm5ro02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="twod" basicModelType="cont" unit="">
+					<DimensionalType maxSizeX="6" maxSizeY="6" type="normal">
+						<DimensionalAttributes virtual="false" dependent="false" reference="false" scope="local" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="true"/>
+					</DimensionalType>
+				</ElementAttributes>
+			</Element>
+			<Element name="h" OID="_040gs00g00001o0704ag49pm5rv02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="Landscape" OID="_040gs00g00001o0704ag49pm5rs02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="oned" basicModelType="cont" unit="">
+					<DimensionalType maxSizeX="128" type="normal">
+						<DimensionalAttributes virtual="false" dependent="false" reference="false" scope="local" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="true"/>
+					</DimensionalType>
+				</ElementAttributes>
+			</Element>
+			<Element name="lastbrake" OID="_040gs00g00001o0704ag49pm5rrg2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="powerAccel" OID="_040gs00g00001o0704ag49pm5rp02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="true" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="s" OID="_040gs00g00001o0704ag49pm5rt02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="true" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="TrackSize" OID="_040gs00g00001o0704ag49pm5rog2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="true"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="v" OID="_040gs00g00001o0704ag49pm5rr02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+		</Elements>
+		<MethodSignatures>
+			<MethodSignature name="vCar" OID="_040gs00g00001o0704ag49pm5o104" public="true" default="false" defaultMethod="true" hidden="false" availableForOS="false">
+				<Arguments>
+					<Argument name="powerCtrl" OID="_040gs00g00001o0704ag49pm5rvg2" ignore="false">
+						<Comment></Comment>
+						<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+							<ScalarType>
+								<ScalarAttributes virtual="false" dependent="false" scope="local" read="true" write="false" kind="parameter" volatile="false" calibrationRead="false" calibrationWrite="false"/>
+							</ScalarType>
+						</ElementAttributes>
+					</Argument>
+					<Argument name="brakeCtrl" OID="_040gs00g00001o0704ag49pm5o004" ignore="false">
+						<Comment></Comment>
+						<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+							<ScalarType>
+								<ScalarAttributes virtual="false" dependent="false" scope="local" read="true" write="false" kind="parameter" volatile="false" calibrationRead="false" calibrationWrite="false"/>
+							</ScalarType>
+						</ElementAttributes>
+					</Argument>
+				</Arguments>
+				<Return OID="_040gs00g00001o0704ag49pm5o0g4">
+					<Comment/>
+					<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+						<ScalarType>
+							<ScalarAttributes virtual="false" dependent="false" scope="local" read="true" write="true" kind="parameter" volatile="false" calibrationRead="false" calibrationWrite="false"/>
+						</ScalarType>
+					</ElementAttributes>
+				</Return>
+			</MethodSignature>
+		</MethodSignatures>
+		<TimeStamps>
+			<TimeStamp timeStampKey="directAccessTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="exportImportTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="formulaTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationCastTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationTypeTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="methodsTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+		</TimeStamps>
+	</Component>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>LgZyj+tjnm2gmX4ptJcArgNwC/s=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>Rl/1+QC3qaGivH/oHoRnXTpEJsz8Yx3qp/LTAYO21brpg3PfInxEr2YiY+/NSH5o
+XLdST1gBgCGDqa+yGZFwg2JC1MNyJ9mAR4mQcIYhK2kVOfjYc6/vGut9dE5ONnyY
+ZFGP7NcWg8ZpUW4+cr00N/cxarSwEIYiht+eDv+noAW9HSLxhWn25Yq8Rgt27eaZ
+ooH1sYaV9/Pau1OZAXzIA01qEePTSc27wbsmocKOfmdxtaytwQ81y3rgU5zDYt07
+uyRPnwuzNi5+2zdhAtd6b3fC5iaJxP28BzlJAwhJcl0LJBhH8g97LO43MQ4C+m+6
+ezBP099KLYzmdJDvTyCp2w==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentMain>

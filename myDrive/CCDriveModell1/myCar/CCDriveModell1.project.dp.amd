@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project toolVersion="V6.3.0" schemaVersion="6.2.0.0" buildConfigKey="PC_BORLANDCV45_1_ttfttft_1000_">
+	<ImplementationConfiguration implementationSetName="Impl" implementationSetOID="_040vs0g17s001o07088g7hnssqgg0"/>
+	<DataConfiguration dataSetName="Data" dataSetOID="_040vs0g17s001o07088g7hnssqg00"/>
+	<OsLogic>
+		<OsEntry>
+			<TargetKey name="PC.Generic"/>
+			<OsDescription OID="_040vs0g17s001o07088g7hnt0mj00" coopLevels="20" preempLevels="0" eventLevels="0" enableMonitoring="true" enableTickDuration="true" tickDuration="1000000000">
+				<OperationModes>
+					<OperationMode name="inactive" id="0" isStartMode="false" isCTMode="false"/>
+					<OperationMode name="active" id="1" isStartMode="true" isCTMode="true"/>
+				</OperationModes>
+				<Tasks/>
+				<OsSettings>
+					<Group name="OperatingSystem">
+						<Option name="AR_XML_CONFIG_FILE" type="String" value=""/>
+						<Option name="DO_OS_CONFIG" type="boolean" value="false"/>
+						<Option name="MEMORY_SECTIONS_FILE" type="String" value="%TARGET%\memorySections.xml"/>
+						<Option name="OS_CONFIG_TOOL_CMD" type="String" value=""/>
+						<Option name="OS_LIBS" type="String" value=""/>
+						<Option name="OS_TEMPLATE" type="String" value=""/>
+						<Option name="osType" type="String" value="Generic"/>
+						<Option name="P_OS_INCLUDE" type="String" value=""/>
+						<Option name="P_OS_LIBRARY" type="String" value=""/>
+						<Option name="PROJ_INTERPOLATION_MAPPING" type="String" value="%TARGETROOT%\common\interpolation\ASCETAliasMapping.ini"/>
+						<Option name="PROJ_OIL_FILE" type="String" value=""/>
+					</Group>
+				</OsSettings>
+			</OsDescription>
+		</OsEntry>
+	</OsLogic>
+	<ModelConfiguration>
+		<FormulasFile type="FORMULA">CCDriveModell1.project.formulas.dp.amd</FormulasFile>
+		<ImplementationTypesFile type="IMPLEMENTATION">CCDriveModell1.project.implementationTypes.dp.amd</ImplementationTypesFile>
+	</ModelConfiguration>
+	<BuildConfiguration buildConfigKey="PC_BORLANDCV45_1_ttfttft_1000_">
+		<Platform platformKey="PC_BORLANDCV45_unknown">
+			<Target name="PC" key="PC"/>
+			<Compiler name="BORLANDCV45" path="c:\ETAS\ASCET6.3\Tools\Compiler\bc\"/>
+			<CodeGenerator type="PHYSICAL_EXPERIMENT"/>
+		</Platform>
+		<BuildSettings>
+			<Group name="build">
+				<Option name="allowReferencesWithoutInitValue" type="boolean" value="false"/>
+				<Option name="cacheLocking" type="boolean" value="true"/>
+				<Option name="cacheLockKindCode" type="boolean" value="true"/>
+				<Option name="cacheLockKindData" type="boolean" value="true"/>
+				<Option name="castStrategy" type="String" value="MISRA"/>
+				<Option name="codeSyntax" type="boolean" value="true"/>
+				<Option name="commentElementDeclSource" type="boolean" value="true"/>
+				<Option name="commentFormula" type="boolean" value="true"/>
+				<Option name="commentGenerationInfo" type="boolean" value="true"/>
+				<Option name="commentSpecificationSource" type="boolean" value="true"/>
+				<Option name="dataLogging" type="boolean" value="false"/>
+				<Option name="definesForEnumValues" type="boolean" value="false"/>
+				<Option name="eHooksConfigFile" type="String" value=""/>
+				<Option name="eHooksProjectFile" type="String" value=""/>
+				<Option name="forceParenthesisLogicalBinOp" type="boolean" value="true"/>
+				<Option name="genDependencyFiles" type="boolean" value="false"/>
+				<Option name="generateDataStructures" type="String" value="USELOCAL"/>
+				<Option name="generateMapFile" type="boolean" value="true"/>
+				<Option name="generateMethodsDT" type="boolean" value="true"/>
+				<Option name="genOSConfiguration" type="boolean" value="true"/>
+				<Option name="makeHeaderStructure" type="String" value="Component"/>
+				<Option name="maxLockedWays" type="String" value="768 kB"/>
+				<Option name="maxLoopIterate" type="int" value="1000"/>
+				<Option name="messageUsageVariant" type="String" value="NON_OPT_COPY_FUNCTION"/>
+				<Option name="parenthesizeForReadability" type="boolean" value="true"/>
+				<Option name="prefixComponentName" type="String" value=""/>
+				<Option name="projectCBannerTemplates" type="String" value="%TARGETROOT%\banner.template.c"/>
+				<Option name="projectHBannerTemplates" type="String" value="%TARGETROOT%\banner.template.h"/>
+				<Option name="protectDiv" type="boolean" value="true"/>
+				<Option name="protectDivSignedOverflow" type="boolean" value="true"/>
+				<Option name="protectVecIndex" type="boolean" value="true"/>
+				<Option name="redundantDataStorage" type="boolean" value="true"/>
+				<Option name="useGlobalId" type="boolean" value="true"/>
+				<Option name="usePMI" type="boolean" value="true"/>
+			</Group>
+			<Group name="codeOptimization">
+				<Option name="autoInlinePrivateMethodsForSM" type="boolean" value="false"/>
+				<Option name="hierarchicalGenerationForSM" type="boolean" value="false"/>
+				<Option name="initializeHistoryWith0" type="boolean" value="false"/>
+				<Option name="misraComplianceForSM" type="boolean" value="true"/>
+				<Option name="optimizeMultipleLevelDirectAccess" type="boolean" value="false"/>
+				<Option name="optimizeOneLevelDirectAccess" type="boolean" value="false"/>
+				<Option name="optimizeStaticActionsForSM" type="boolean" value="false"/>
+				<Option name="outlineAutomaticallyGeneratedMethodsForSM" type="boolean" value="false"/>
+			</Group>
+			<Group name="iaSettings">
+				<Option name="allowDouble" type="boolean" value="true"/>
+				<Option name="arithmeticServiceSet" type="String" value="&lt;None&gt;"/>
+				<Option name="generateRound" type="boolean" value="true"/>
+				<Option name="representableBits" type="int" value="32"/>
+				<Option name="representableContinuousBits" type="int" value="64"/>
+				<Option name="resultOnDivisionByZero" type="String" value="numerator"/>
+				<Option name="shiftForDiv" type="boolean" value="false"/>
+				<Option name="shiftForLiterals" type="boolean" value="false"/>
+				<Option name="shiftForMul" type="boolean" value="false"/>
+				<Option name="tempVarsAlways32Bit" type="boolean" value="false"/>
+			</Group>
+			<Group name="asam2MC">
+				<Option name="ETargetHexCodeIncludesROMCode" type="String" value="false"/>
+				<Option name="Formulawithunit" type="String" value="false"/>
+				<Option name="Suppressexportsprototypewithinasap2" type="String" value="false"/>
+				<Option name="Suppressexportswithinasap2" type="String" value="false"/>
+				<Option name="SuppressFunctionInformationInAsap2" type="String" value="false"/>
+				<Option name="SuppressGroupInformationInAsap2" type="String" value="false"/>
+			</Group>
+		</BuildSettings>
+	</BuildConfiguration>
+	<SimulationConfiguration experimentTarget="ExperimentOfflinePC"/>
+	<HiddenMessageTypes/>
+	<IgnoredMessageTypes/>
+	<PromotedToErrorMessageTypes/>
+	<PromotedToWarningMessageTypes/>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>3R/QkBoeE2UUc6eIWcVP/UbCUks=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>gYp80wESplHHzGOY2fIwhNjG0DYMpRKqjpoaarFQUAq2ehHyZZ9KMw/Ui/ZLj5hN
+pFOECzxWfx6nchi96xRMTLMdHhDln9A/rL+o6wIGRsZR0mVzWgEUEnFvnwE1d4fE
+1OSYErqqwx1YIKQesItjXutavLfgVcP7RiRxHWJAINyiaMAGBzcFJMQ+RlNcyQIl
+shV7xT8CsZmslHu+0RhxUojq2Ffghr9qiN8dbA8Pnh0+OmSHkULPkOQujJkxm/+b
+jfLZ4MZ4vMOMAQcumHFrP4Q+sHLIzctr7JkE9LbBg1Hq6144GYRUx/fsbM903gwp
+Z0VT2j/c/yEJHO03N9+L5w==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</Project>

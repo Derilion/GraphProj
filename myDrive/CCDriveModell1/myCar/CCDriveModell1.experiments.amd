@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EE_GUI xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ToolName="ASCET" Version="6.2.1.0">
+	<Experiment ID="_040vs0g17s001o07088g7hnt0mjg0" Version="Undefined" Name="Default" timestamp="2016-01-27T17:48:24" comment="Experiment for myDriveMod" collapsedView="true" offlineMeasureRate="1" animatedStates="false">
+		<Position x="8" y="50"/>
+		<Size x="1264" y="832"/>
+		<DataGenerator automaticStop="false" interpolate="false" repeat="false" ignoreTimestampOffset="false"/>
+		<EventGenerator stepMode="Step [s]" steps="1.0">
+			<Channel name="process" degreesCS="1" delay="0.01" enabled="true" mode="timeSynchron" phase="0.0" priority="5"/>
+			<Channel name="generateData" degreesCS="180" delay="0.01" enabled="false" mode="timeSynchron" phase="0.0" priority="10"/>
+		</EventGenerator>
+		<Layers>
+			<Layer>
+				<LayerLayout>
+					<WidgetGroup Name="Numeric display; 1" longName="Numeric display; 1 (27.01.2016 17:48:24)" iconized="false" maximized="false">
+						<Position x="533" y="266"/>
+						<Size x="739" y="312"/>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericConfig decimals="1" hexView="false" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="sCar" UniqueName="sCar"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericConfig decimals="3" hexView="false" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="vCar" UniqueName="vCar"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings/>
+							</WidgetData>
+						</Widget>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericConfig decimals="3" hexView="false" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="_040vs0g17s001o07088g7hnsl29g0_040gs00g00001o0704ag49pm5rt02" UniqueName="CCDriveModell1/myDrive/s"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericConfig decimals="3" hexView="false" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="dist2them" UniqueName="dist2them"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+						<Widget Name="Numeric display; 1" Category="NumericDisplay" Type="RBNumericMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericConfig decimals="3" hexView="false" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="theirvCar" UniqueName="theirvCar"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+					</WidgetGroup>
+					<WidgetGroup Name="Vertical bar display; 1" longName="Vertical bar display; 1 (27.01.2016 17:48:24)" iconized="false" maximized="false">
+						<Position x="1171" y="180"/>
+						<Size x="105" y="250"/>
+						<Widget Name="Vertical bar display; 1" Category="NumericDisplay" Type="RBVerticalBarMeasureDataWindow">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<VerticalBarConfig decimals="3" hexView="false" numberRepresentation="float" min="0.0" max="200.0"/>
+										<ElementReference ID="vCar" UniqueName="vCar"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+					</WidgetGroup>
+					<WidgetGroup Name="Numeric Editor; 1" longName="Numeric Editor; 1 (27.01.2016 17:48:24)" iconized="false" maximized="false">
+						<Position x="751" y="621"/>
+						<Size x="525" y="54"/>
+						<Widget Name="Numeric Editor; 1" Category="NumericEditor" Type="RBNumericCalibrationEditor">
+							<WidgetData>
+								<WidgetSettings>
+									<ElementConfig>
+										<NumericEditorConfig hexView="false" incDecStep="1.0" decimals="3" largeFont="true" numberRepresentation="float"/>
+										<ElementReference ID="power" UniqueName="power"/>
+									</ElementConfig>
+								</WidgetSettings>
+							</WidgetData>
+						</Widget>
+					</WidgetGroup>
+				</LayerLayout>
+			</Layer>
+		</Layers>
+		<CTSolvers/>
+		<Elements>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="dist2them" ID="dist2them"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="sCar" ID="sCar"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="CCDriveModell1/myDrive/s" ID="_040vs0g17s001o07088g7hnsl29g0_040gs00g00001o0704ag49pm5rt02"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="power" ID="power"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="vCar" ID="vCar"/>
+					</Group>
+				</Device>
+			</Measurement>
+			<Measurement>
+				<Device ID="default" Name="default">
+					<Group ID="default" Name="default">
+						<Element Name="theirvCar" ID="theirvCar"/>
+					</Group>
+				</Device>
+			</Measurement>
+		</Elements>
+	</Experiment>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>4GScBXdSJoE2HoJU9e07nZviaug=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>YJmIzEKljIjKPlmyEFvtzQ39fc8/6CVMbks8N0PBfc4xrNQ5VwbmTrToqNHHOYsA
+devschkBYpZt5TQCYsvb57CBovwqpIJyn7RMoZkz+zEnhXdC6H5CfDPogJSZYVmD
+zpa4VS5JJaMDsVbAep+GUQvUtjW49vlkoJ1h5mJAdYUdYdCqo9YKqgs4nIn7SI5V
+NSnFXNVPHQkdKltCmP5XHJLZDM6FDhD9gNrZtpPJD3EP4GIGb4sAJNqYm/llgGO5
+qKzUesECavNlXH4stQMkj6r2uqxNjVJWPGMtv6Iz1Tn1tM5TWdviXr+TZ8qU61EZ
+4G41eycKd9yKcvuhXdOn2Q==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</EE_GUI>

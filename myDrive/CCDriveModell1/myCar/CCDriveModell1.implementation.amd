@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentImplementation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<ImplementationSet name="CCDriveModell1" OID="_040vs0g17s001o07088g7hnsqqc00" default="false" memoryLocation="Default" classConfig="true" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:52:27" timeStampCounter="83"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="brakeAccel" elementOID="_040vs0g17s001o07088g7hnsl26g0">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="powerAccel" elementOID="_040vs0g17s001o07088g7hnsl23g0">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="sCar" elementOID="_040vs0g17s001o07088g7hnsl2200">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="vCar" elementOID="_040vs0g17s001o07088g7hnsl2500">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ImplementationSet name="Impl" OID="_040vs0g17s001o07088g7hnsoub00" default="true" memoryLocation="Default" classConfig="false" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:51:28" timeStampCounter="81"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="rounds" elementOID="_040vs0g17s001o07088g7hnsl2700">
+					<ScalarImplementation>
+						<NumericImplementation memoryLocationInstance="Default" cacheLocking="automatic" policy="STANDARD" additionalInformation="" limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false" quantization="0">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="DetectDecrease" elementOID="_040vs0g17s001o07088g7hnsl2900">
+					<ComplexImplementation implementationName="Impl" implementationOID="_040gs00g00001o0704ag4bhrhdtg6"/>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="myDrive" elementOID="_040vs0g17s001o07088g7hnsl29g0">
+					<ComplexImplementation implementationName="Impl" implementationOID="_040gs00g00001o0704ag49pm5o204"/>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>vTL0RJ50zzNrhppBpnmJ5Is/uzg=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>QIW3B7Zx0mBrjuGC4r2JgKBRRSI8wQUu/vHXVLyv1a5eNFbpGy5ndtNPLgO5GuaI
+ReWjA8V7zd/HHgSltGJ5MdviI/FotrG+yNcU9qcQUBOk+79rb9nU+nbIKGnUL5E2
+0w5UYRd7hwisivG0V2YFHaOPouSrPmgGamOTczwPkMDSOYFdlXHr3A2XIXQKsBMm
+xXBtyq65/SxGMoWSG7otw5IIHw8q2FJx6vJPzJ4nNXxLh132UkF2skR3yHEc7EYg
+F6VDP9+1ctVrhxjd8Sz2wmZSfZ5u4meqaHmTaPF3UHomA4OpZ4E31zXJ/PNv1+mY
+GG0QCGs0smvh9A8zzqIskA==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentImplementation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.3.0" schemaVersion="6.2.0.0">
+	<DataSet name="DetectDecrease_DEFAULT" OID="_040gs00g00001o0704ag4bhrla2g6" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:52:29" timeStampCounter="90"/>
+		<DataEntry elementName="dT" elementOID="_040gs00g00001o0704ag4bhrje0g6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DetectDecrease" elementOID="_040gs00g00001o0704ag4bhrje106">
+			<DataVariant name="default">
+				<ComplexType dataName="EdgeFallinig" dataOID="_040gs00g00001o0704ag4bhrhdt06"/>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040gs00g00001o0704ag4bhrla1g6" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:52:29" timeStampCounter="91"/>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>zqJyZlcjS0WfIDe5qUe7yXTyv8c=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>NSj3yU1ELGyGUqH98SLdHuqcqfj+cs5Thf8OsNUecQUtMa9KBTWQ84gfPitT9CJF
+bXAhUDPqgzfygY5LjcNrzBHbelNOhKucLxC/NnqJOm/HhKrHvJY+z1vUkZPFOJtG
+gonE2fQqeuZkTwpctoK2Gw1fQMfT5lW/lE74hU4poW/C0bygexKgFDqXTkKJOzTQ
+5H3ZS1WgrRBC9rz+W/U9sS+k3ApjrIx+YyPTjtH789rY319mM3rj0PrfwlGxKYSN
+9DU17TKcQI68ABwrFJM3S8tMcIbfAAjV3vloLW/JXx1BBnhcbdR4fOQW2jfU0JLe
+hl7s22LxGWaee76AX9Y9yQ==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

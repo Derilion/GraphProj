@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.7">
+	<Component defaultProjectName="CCDriveModell1_DEFAULT" defaultProjectOID="_040vs0g17s001o07088g7hnssqdg0" specificationType="BlockDiagram" name="CCDriveModell1" nameSpace="/myCar" OID="_040vs0g17s001o07088g7hnsl2100" timeStamp="2016-02-17T12:51:28" componentType="ASCET_Module">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:51:28" timeStampCounter="79"/>
+		<Comment>Simple froce balance vehicle on a road model. </Comment>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<Elements>
+			<Element name="brake" OID="_040vs0g17s001o07088g7hnsl2600" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="imported" set="false" get="false" read="true" write="false" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="brakeAccel" OID="_040vs0g17s001o07088g7hnsl26g0" ignore="false">
+				<Comment>Accelaration of the vehicle (brake part) - negative</Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="m/s^2">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="false" write="true" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="power" OID="_040vs0g17s001o07088g7hnsl2300" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="imported" set="false" get="false" read="true" write="false" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="powerAccel" OID="_040vs0g17s001o07088g7hnsl23g0" ignore="false">
+				<Comment>Accelaration of the vehicle (engine part)</Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="m/s^2">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="false" write="true" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="rounds" OID="_040vs0g17s001o07088g7hnsl2700" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="local" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="sCar" OID="_040vs0g17s001o07088g7hnsl2200" ignore="false">
+				<Comment>Distance driven by the vehicle</Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="km">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="false" write="true" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="TrackSize" OID="_040vs0g17s001o07088g7hnsl2400" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="imported" set="false" get="false" read="true" write="false" kind="parameter" volatile="false" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="vCar" OID="_040vs0g17s001o07088g7hnsl2500" ignore="false">
+				<Comment>Velocity of the vehicle</Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="cont" unit="km/h">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="false" write="true" kind="message" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DetectDecrease" OID="_040vs0g17s001o07088g7hnsl2900" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes scope="local" set="false" get="false" read="true" write="true" componentName="/myCar/DetectDecrease" componentID="_040gs00g00001o0704ag4bhrfdpg6" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="myDrive" OID="_040vs0g17s001o07088g7hnsl29g0" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes scope="local" set="false" get="false" read="true" write="true" componentName="/myCar/myDrive_3" componentID="_040gs00g00001o0704ag49pm3vn02" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+		</Elements>
+		<MethodSignatures>
+			<MethodSignature name="process" OID="_040vs0g17s001o07088g7hnsl2a00" public="true" default="false" defaultMethod="true" hidden="false" availableForOS="true"/>
+		</MethodSignatures>
+		<TimeStamps>
+			<TimeStamp timeStampKey="directAccessTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="exportImportTimeStampKey" timeStampValue="2016-02-17T12:51:28"/>
+			<TimeStamp timeStampKey="formulaTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationCastTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationTypeTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="methodsTimeStampKey" timeStampValue="2016-02-17T12:51:28"/>
+		</TimeStamps>
+	</Component>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>vYpwJlk2mZIVQu0Jj8rjVzeIvQ4=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>HP1pFd10v1ADMmSpZVMfMO98DgxpZivseNDG/eaAAFr49H9nxJUeUyrIhrPmrfEl
+H4VsdckDESQZG/x3/DIvqgrgZe+VbWrz3plhqSWFRqNQie8XB0dtn0JCsFPpyGW3
+5Esmh0EeUCXTcUQUQCgeHHUg0q9GUKeKjqVlI5lBx5R5SsQk9r0PQDGXO7wG7/5N
+xSMf4eoJRw07gUuhIyGCjfQWnKOXgJPxEZNendYSeamm/DCB+e6KGtckQAU4dFGB
+Cfs/AElhe96syiGdegtytkcrI+Ne2ro0e2S3FCYohqSAnrZVPyKidz1uVmTH84YJ
+HZ8+TFABbZ4OYIpaEgGCuA==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentMain>

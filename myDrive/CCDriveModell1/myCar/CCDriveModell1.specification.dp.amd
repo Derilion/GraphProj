@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specifications xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<Layout graphicOID="-1" flexibleCreated="false" hidePinNames="false" hideName="false" hideClassName="false" hideIcon="false">
+		<LineStyle width="1" type="LineSolid">
+			<Color red="0" green="0" blue="0"/>
+		</LineStyle>
+		<FillColor red="65535" green="65535" blue="65535"/>
+		<Position x="0" y="0"/>
+		<LabelPosition x="0" y="70"/>
+		<Interfaces/>
+		<Size x="60" y="60"/>
+		<Icon>
+			<Size x="60" y="60"/>
+		</Icon>
+	</Layout>
+	<Specification name="Main" public="public">
+		<ProjectSpecification highestUsedGraphicalIdentifier="0">
+			<ESDLCode>
+				<MethodBodies/>
+			</ESDLCode>
+			<DiagramElements/>
+		</ProjectSpecification>
+	</Specification>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>RiIq8OQVWfSP6jVnv9+wvRisReE=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>XkK8SWXlAXixneej7IlUt1RiOR0p8SPvalTa4TDBnLK83f+1Hamtn6UPKPZPD9tu
+Imm/zorB3SInBwmdbvUxi5hUk6gF64Ix+c8k6A82fkxDdYS0GIYKIukIu28wxcPZ
+cnOxml3mR2bOYeJk2k3ZhEDUsi1f8FmQTkMYXvigJr75OPCfq5V0o/f5JkkCxU8a
+brrxRPjwRJ3LF6AmSYjCLm0spBwRctVsxTJYmU8Kvr/kHnrHE9OxY6KFu1fnWqAd
+voFCixxMRJT8TGsG05Pio3SVMjDmhP18EgErTtWf9wjj0rEr5etZU2XIgZCt3fmn
+UoEMXP5gscFyn4ZpuoXLvQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</Specifications>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.3.0" schemaVersion="6.2.0.0">
+	<DataSet name="CCDriveModell1" OID="_040vs0g17s001o07088g7hnsoubg0" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:52:28" timeStampCounter="85"/>
+		<DataEntry elementName="brakeAccel" elementOID="_040vs0g17s001o07088g7hnsl26g0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="powerAccel" elementOID="_040vs0g17s001o07088g7hnsl23g0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="sCar" elementOID="_040vs0g17s001o07088g7hnsl2200">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="vCar" elementOID="_040vs0g17s001o07088g7hnsl2500">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040vs0g17s001o07088g7hnsmuag0" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-02-17T12:51:28" timeStampCounter="80"/>
+		<DataEntry elementName="rounds" elementOID="_040vs0g17s001o07088g7hnsl2700">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DetectDecrease" elementOID="_040vs0g17s001o07088g7hnsl2900">
+			<DataVariant name="default">
+				<ComplexType dataName="EdgeFallinig" dataOID="_040gs00g00001o0704ag4bhrhdt06"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="myDrive" elementOID="_040vs0g17s001o07088g7hnsl29g0">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040gs00g00001o0704ag49pm5o1g4"/>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>SVcrn3iPtMn0ERjjxHu6t32dI1Y=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>gyam1h70SvDXIL8Rxjk+iwAJKki8U//DyGxqPk66rmUg4CuUsz2XplW/FuA40wpg
+Mo9RuR5E6VMvIwzb97piZjOmZK1ABIHzHvyxNVwpQBTUdB6wG5TKA3kfsmgE6efY
+4OBLxTE8Tlm/ntEn3lN2fzafD10e2xzMW8sa2y6FAWxPMBAFHFd6Dpo1jL5tQiU4
+OzF/oh1r54n8+4oE6W3hC8foPag73stk29tA1Z6kQPmSsGgf6q6/6cS7v1dhMdnb
+7fc0tqM2LptJiR2CBI1xRJhmceasf0E9eAtU1p+r6Y7SxYUPQX92NZmTdOGiWvNK
+6ZoW0kqtD2rsNA81IqB2mA==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

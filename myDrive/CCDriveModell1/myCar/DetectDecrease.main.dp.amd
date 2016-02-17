@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.7">
+	<Component specificationType="Project" name="DetectDecrease_DEFAULT" nameSpace=".defaultProject" OID="_040gs00g00001o0704ag4bhrje006" timeStamp="2016-01-27T21:42:58" componentType="ASCET_DefaultProject">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2016-01-27T21:42:58" timeStampCounter="2208"/>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<Elements>
+			<Element name="dT" OID="_040gs00g00001o0704ag4bhrje0g6" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="scalar" basicModelType="dt" unit="">
+					<ScalarType>
+						<ScalarAttributes virtual="false" dependent="false" scope="exported" set="false" get="false" read="true" write="true" kind="variable" volatile="true" calibrationRead="true" calibrationWrite="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DetectDecrease" OID="_040gs00g00001o0704ag4bhrje106" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes xmlns:tbf="http://www.altova.com/MapForce/UDF/tbf" modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes scope="exported" set="false" get="false" read="true" write="true" componentName="/myCar/DetectDecrease" componentID="_040gs00g00001o0704ag4bhrfdpg6" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+		</Elements>
+		<MethodSignatures/>
+		<TimeStamps>
+			<TimeStamp timeStampKey="directAccessTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="exportImportTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="formulaTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationCastTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="implementationTypeTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+			<TimeStamp timeStampKey="mappingCacheTimeStampKey" timeStampValue="2016-02-17T12:52:27"/>
+			<TimeStamp timeStampKey="methodsTimeStampKey" timeStampValue="2016-01-27T21:42:58"/>
+		</TimeStamps>
+	</Component>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>LeqMFkR6Fg6UWBKE3BRiJn8H8zc=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>DRCOdQ/BNavAdWZGSk1N/RFpFekKmwNyVO96NvNvuuizB23R5k72Zgm1uSrJ1Bad
+ZP4ZphGgD4odVLGx7qOAVSDCsTQaR2mJfKDglmpODBBN/hHxn0Sfe2KH0t0fC/mJ
+ifCxOtYlVtV3Xvuxv7+nZ7J53sUvgMGdlu4QGf5eTdDLpvmVBw6zcsUSmGHq38+B
+P4gxXJRkRKe3hcMsJfkHKu4eIXzx3VwF7FwPBGgvH6isdT7AgQcHf8q+zG4E/sMV
+YoeYGxuS2X/ocnmNasFkjLBUeY3sszGkY4Aw4zX4CP9DjDxPUtmdFH/OQyDWdXbM
+/FwJtFqMrAIP+lVcN+dvYA==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</ComponentMain>

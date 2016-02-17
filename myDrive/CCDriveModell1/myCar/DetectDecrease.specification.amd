@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specifications xmlns:ds="http://www.w3.org/2000/09/xmldsig#" toolVersion="V6.3.0" schemaVersion="6.2.0.2">
+	<Layout graphicOID="-1" flexibleCreated="false" hidePinNames="true" hideName="false" hideClassName="true" hideIcon="false">
+		<LineStyle width="1" type="LineSolid">
+			<Color red="0" green="0" blue="0"/>
+		</LineStyle>
+		<FillColor red="65535" green="65535" blue="65535"/>
+		<Position x="500" y="500"/>
+		<LabelPosition x="500" y="527"/>
+		<Interfaces>
+			<MethodPort methodName="compute" methodOID="_040gs00g00001o0704ag4bhrhds06" defaultMethod="false">
+				<SequenceCall graphicOID="-1" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+					<Position x="430" y="490"/>
+				</SequenceCall>
+				<SelectorPort graphicOID="-1" direction="right" visibility="true" nameVisibility="false" elementName="signal" elementOID="_040gs00g00001o0704ag4bhrhdr06">
+					<Position x="485" y="500"/>
+				</SelectorPort>
+			</MethodPort>
+			<MethodPort methodName="out" methodOID="_040gs00g00001o0704ag4bhrhdsg6" defaultMethod="false">
+				<SelectorPort graphicOID="-1" direction="left" visibility="true" nameVisibility="false" elementName="--Absent--" elementOID="_040gs00g00001o0704ag4bhrhdrg6">
+					<Position x="515" y="500"/>
+				</SelectorPort>
+			</MethodPort>
+			<MethodPort methodName="set" defaultMethod="true">
+				<SequenceCall graphicOID="-1" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+					<Position x="490" y="550"/>
+				</SequenceCall>
+				<SelectorPort graphicOID="-1" direction="bottomLeft" visibility="false" nameVisibility="false" name="aValue">
+					<Position x="485" y="515"/>
+				</SelectorPort>
+			</MethodPort>
+			<ReturnPort graphicOID="-1" location="left" visibility="true" nameVisibility="false" tempVar="false" methodName="out" methodOID="_040gs00g00001o0704ag4bhrhdsg6" returnElementOID="_040gs00g00001o0704ag4bhrhdrg6" defaultPort="false">
+				<Position x="515" y="500"/>
+			</ReturnPort>
+			<ReturnPort graphicOID="-1" location="bottomRight" visibility="false" nameVisibility="false" tempVar="false" methodName="get" defaultPort="true">
+				<Position x="515" y="515"/>
+			</ReturnPort>
+		</Interfaces>
+		<Size x="15" y="15"/>
+		<Icon iconName="/ETAS_IconLib/Miscellaneous/EdgeFalling" iconOID="_040h28hj8hamdj070gbg7kj73cd02">
+			<Size x="15" y="15"/>
+		</Icon>
+	</Layout>
+	<Specification name="Main" public="public">
+		<BlockDiagramSpecification highestUsedGraphicalIdentifier="26">
+			<ESDLCode>
+				<MethodBodies>
+					<MethodBody methodName="compute"/>
+					<MethodBody methodName="out"/>
+				</MethodBodies>
+			</ESDLCode>
+			<DiagramElements>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="2">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="11">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="120" y="170"/>
+							<BendPoint x="120" y="130"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="5">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="24">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="320" y="140"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="8">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="6">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="420" y="140"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="11">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="25">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="230" y="130"/>
+							<BendPoint x="230" y="130"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<Connection connectionPointNumber="2">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<Start graphicOID="26">
+							<Position x="0" y="0"/>
+						</Start>
+						<End graphicOID="3">
+							<Position x="0" y="0"/>
+						</End>
+						<ConnectionLine commentLine="false">
+							<BendPoint x="220" y="150"/>
+							<BendPoint x="220" y="170"/>
+						</ConnectionLine>
+					</Connection>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="1" elementName="oldValue" elementOID="_040gs00g00001o0704ag4bhrhdqg6" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="160" y="170"/>
+						<LabelPosition x="160" y="180"/>
+						<Interfaces>
+							<ReturnPort graphicOID="3" location="left"/>
+							<SelectorPort graphicOID="2" location="right">
+								<SequenceCall graphicOID="19" methodName="compute" methodOID="_040gs00g00001o0704ag4bhrhds06" sequenceNumber="2" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="140" y="160"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="4" elementName="buffer" elementOID="_040gs00g00001o0704ag4bhrhdq06" type="Local">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="350" y="140"/>
+						<LabelPosition x="350" y="150"/>
+						<Interfaces>
+							<ReturnPort graphicOID="6" location="left"/>
+							<SelectorPort graphicOID="5" location="right">
+								<SequenceCall graphicOID="20" methodName="compute" methodOID="_040gs00g00001o0704ag4bhrhds06" sequenceNumber="1" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="330" y="130"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="7" elementName="return" methodName="out" elementOID="_040gs00g00001o0704ag4bhrhdrg6" type="Return">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="450" y="140"/>
+						<LabelPosition x="450" y="150"/>
+						<Interfaces>
+							<SelectorPort graphicOID="8" location="right">
+								<SequenceCall graphicOID="21" methodName="out" methodOID="_040gs00g00001o0704ag4bhrhdsg6" sequenceNumber="1" userVisibility="true" startAtomic="false" endAtomic="false">
+									<Position x="440" y="130"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<SimpleElement graphicOID="9" elementName="signal" methodName="compute" elementOID="_040gs00g00001o0704ag4bhrhdr06" type="Argument">
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="70" y="130"/>
+						<LabelPosition x="70" y="140"/>
+						<Interfaces>
+							<ReturnPort graphicOID="11" location="left"/>
+							<SelectorPort graphicOID="10" location="right">
+								<SequenceCall graphicOID="22" sequenceNumber="0" userVisibility="false" startAtomic="false" endAtomic="false">
+									<Position x="10" y="110"/>
+								</SequenceCall>
+							</SelectorPort>
+						</Interfaces>
+					</SimpleElement>
+				</DiagramElement>
+				<DiagramElement>
+					<Operator graphicOID="23" type="&lt;" tempVar="false">
+						<LineStyle width="1" type="LineSolid">
+							<Color red="0" green="0" blue="0"/>
+						</LineStyle>
+						<FillColor red="65535" green="65535" blue="65535"/>
+						<Position x="260" y="140"/>
+						<Interfaces>
+							<ReturnPort graphicOID="24" location="right">
+								<SelectorPort graphicOID="25" index="0" location="left"/>
+								<SelectorPort graphicOID="26" index="1" location="left"/>
+							</ReturnPort>
+						</Interfaces>
+					</Operator>
+				</DiagramElement>
+			</DiagramElements>
+		</BlockDiagramSpecification>
+	</Specification>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference>
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>ALUggjcjiX5sIkWYg36F5+TAykU=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>p3B+UZOg0Etql+Ct2LRDavzR96Qbya+dsuAkp7i7TOrj+fhxWhVsN8jH7Xp4GhMj
+VFe+v4yUhzKEr2s7NTv9pO17S/7f8DkG5e9+GT8QP/Tba5YbYfXsyqCC5B38NjHl
+hhedSA+U24YZHloUo5MM++U062UUyGO6XdYPQXp0qLMadnlE2xugfHo/3Q/YCeiN
+doPwDcoIjLqkxlnd8+wBUJILDBNa1x+qmXx0jBLafQZngHEFrY8wb0qTi5iju1v2
+XRjUZdo7PG9U+TPIACT5tzoWIPCefMPqpB4NQjt58gdJfN9Z5leR4pvLapSgCnIW
+D/tzmuRtwITOPocikCG5nw==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyName>Etas Ascet Verification</ds:KeyName>
+		</ds:KeyInfo>
+	</ds:Signature>
+</Specifications>
